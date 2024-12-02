@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(177, 181, 187);
+  padding: 0.75rem 1rem;
+  position: sticky;
+  border-radius: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.logoutButton {
+  margin: 0;
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddUserButton {
+  margin: 0;
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  color: #555;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}

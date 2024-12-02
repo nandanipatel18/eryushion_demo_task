@@ -1,0 +1,103 @@
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-container p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.profile-container .btn-edit,
+.profile-container .btn-delete,
+.profile-container .btn-save,
+.profile-container .btn-cancel {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f;
+}
+
+.btn-save {
+    background-color: #2196f3;
+    color: white;
+}
+
+.btn-save:hover {
+    background-color: #1e88e5;
+}
+
+.btn-cancel {
+    background-color: #757575;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #616161;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
